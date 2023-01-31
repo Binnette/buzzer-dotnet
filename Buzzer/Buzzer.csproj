@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Audio\bleu.mp3" />
+    <None Remove="Audio\cena.mp3" />
+    <None Remove="Audio\drama.mp3" />
+    <None Remove="Audio\fly.mp3" />
+    <None Remove="Audio\gmf.mp3" />
+    <None Remove="Audio\hallelujah.mp3" />
+    <None Remove="Audio\maff.mp3" />
+    <None Remove="Audio\maff.wav" />
+    <None Remove="Audio\mercu.mp3" />
+    <None Remove="Audio\motmagique.mp3" />
+    <None Remove="Audio\sncf.mp3" />
+    <None Remove="Audio\sncf.wav" />
+    <None Remove="Audio\spaceo.mp3" />
+    <None Remove="Audio\xfiles.mp3" />
+    <None Remove="Audio\xfiles.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\bleu.mp3" />
+    <EmbeddedResource Include="Audio\cena.mp3" />
+    <EmbeddedResource Include="Audio\drama.mp3" />
+    <EmbeddedResource Include="Audio\fly.mp3" />
+    <EmbeddedResource Include="Audio\gmf.mp3" />
+    <EmbeddedResource Include="Audio\hallelujah.mp3" />
+    <EmbeddedResource Include="Audio\maff.mp3" />
+    <EmbeddedResource Include="Audio\mercu.mp3" />
+    <EmbeddedResource Include="Audio\motmagique.mp3" />
+    <EmbeddedResource Include="Audio\sncf.mp3" />
+    <EmbeddedResource Include="Audio\spaceo.mp3" />
+    <EmbeddedResource Include="Audio\xfiles.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.1.0" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.637273" />
+  </ItemGroup>
+</Project>

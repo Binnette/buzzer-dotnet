@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Buzzer"
+             x:Class="Buzzer.MainPage">
+    <StackLayout>
+        <Grid x:Name="GridButtons">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <!--Grid.Row="0"-->
+            <Button Text="SNCF" Grid.Row="0" Grid.Column="0" />
+            <Button Text="MAFF" Grid.Row="0" Grid.Column="1" />
+            <Button Text="GMF" Grid.Row="0" Grid.Column="2" />
+            <!--Grid.Row="1"-->
+            <Button Text="X-Files" Grid.Row="1" Grid.Column="0" />
+            <Button Text="Mercuro" Grid.Row="1" Grid.Column="1" />
+            <Button Text="Space O" Grid.Row="1" Grid.Column="2" />
+            <!--Grid.Row="2"-->
+            <Button Text="Cena" Grid.Row="2" Grid.Column="0" />
+            <Button Text="Bleu" Grid.Row="2" Grid.Column="1" />
+            <Button Text="Drama" Grid.Row="2" Grid.Column="2" />
+            <!--Grid.Row="3"-->
+            <Button Text="Hallelujah" Grid.Row="3" Grid.Column="0" />
+            <Button Text="Fly" Grid.Row="3" Grid.Column="1" />
+            <Button Text="Mot magique" Grid.Row="3" Grid.Column="2" />
+
+        </Grid>    
+    </StackLayout>
+    
+</ContentPage>
